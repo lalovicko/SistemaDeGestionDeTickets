@@ -23,7 +23,7 @@ public:
 	void GetEstado() {   // Cambia el estado automáticamente siguiendo la secuencia valida
 		if (m_estado == "Pendiente") {
 			m_estado = "En Progreso";
-			std::cout << "El ticket ahora está en 'En Progreso'." << std::endl;
+			std::cout << "El ticket ahora esta en 'En Progreso'." << std::endl;
 		}
 		else if (m_estado == "En Progreso") {
 			m_estado = "Completado";
