@@ -27,10 +27,10 @@ public:
 		}
 		else if (m_estado == "En Progreso") {
 			m_estado = "Completado";
-			std::cout << "El ticket ahora está 'Completado'." << std::endl;
+			std::cout << "El ticket ahora esta 'Completado'." << std::endl;
 		}
 		else if (m_estado == "Completado") {
-			std::cout << "El ticket ya está completado, no se puede avanzar." << std::endl;
+			std::cout << "El ticket ya esta completado, no se puede avanzar." << std::endl;
 		}
 	}
 	void GetDescripcion(const std::string& desc) { m_descripcion = desc; }
