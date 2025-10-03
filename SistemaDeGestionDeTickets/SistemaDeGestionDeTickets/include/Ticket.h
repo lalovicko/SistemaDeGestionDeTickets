@@ -12,8 +12,8 @@ public:
 
 	void mostrar() const {	// Muestra los datos del ticket en consola
 		std::cout << "Ticket no: " << ID << std::endl;
-		std::cout << "Titulo: " << std::endl;
-		std::cout << "Detalles: " << std::endl;
+		std::cout << "Titulo: " << m_titulo<< std::endl;
+		std::cout << "Detalles: " << m_descripcion << std::endl;
 		std::cout << "Estado actual es: " << m_estado << std::endl;
 		std::cout << "Fecha de generacion: " << m_fecha.toString() << std::endl;
 	}
