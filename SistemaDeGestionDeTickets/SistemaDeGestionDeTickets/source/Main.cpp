@@ -22,7 +22,7 @@ main(){
 				std::getline(std::cin, problema);
 				std::cout << "Como se genero este bug?" << std::endl;
 				std::getline(std::cin, descripcion);
-				estado = "pendiente";
+				estado = "Pendiente";
 				Ticket nuevo(id, problema, descripcion, estado);
 				g.Agregar(nuevo);
 				std::cout << "Reporte generado correctamente" << std::endl;
