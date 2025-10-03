@@ -27,5 +27,3 @@ struct Fecha {
         return std::to_string(dia) + "/" + std::to_string(mes) + "/" + std::to_string(anio);
     }
 };
-
-};
